@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+
+  <title>Spring Boot Thymeleaf Hello World Example</title>
+</head>
+
+<body>
+
+<div>
+  <h1>Spring MVC</h1>
+
+  <h2>This is Hello world of thymeleaf</h2>
+
+  <h2>
+    <span th:text="'Hello, ' + ${developer}"></span>
+  </h2>
+</div>
+
+</body>
+</html>
